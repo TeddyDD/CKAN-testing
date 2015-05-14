@@ -25,7 +25,7 @@
                 "Firespitter.dll",
                 "FSFuelSwitchTweakScale.cfg",
                 "Firespitter.version",
-                "Firespitter.cfg",
+                "Resources",
                 "Old Example Craft.zip"
             ],
             "comment": "The DLL is installed from FirespitterCore"
