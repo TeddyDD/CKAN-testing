@@ -6,7 +6,12 @@
     "install": [
         {
             "file": "KAX",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "KAX 2.4.2 dds textures.7z",
+                "Example Craft"
+            ],
+            "comment": "Example crafts are filtered out becouse its impossible to install ships to subdirectory."
         }
     ],
     "depends": [
@@ -15,6 +20,9 @@
         },
         {
             "name": "FirespitterResourcesConfig"
+        },
+        {
+            "name": "ModuleManager"
         }
     ],
     "resources": {
